@@ -49,6 +49,13 @@ section {
     text-align: center; 
 }
 
+.project img {
+    width: 100%; /* or any specific width */
+    max-width: 600px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 
 footer {
     text-align: center;
