@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Cheung- Portfolio</title>
+    <title>Michael Cheung - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,6 +11,7 @@
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -18,31 +19,46 @@
     </header>
     <section id="about">
         <h1>Michael Cheung</h1>
-        <p>Welcome to my portfolio website. Here you'll find information about me and the projects I've worked on.</p>
+        <p>Welcome to my portfolio website. Here you'll find information about me, my skills, and the projects I've worked on.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Backend Programming (Python, Node.js)</li>
+            <li>C/C++</li>
+            <li>UI/UX Design</li>
+        </ul>
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project.</p>
-            <a href="project-link.html">Learn More</a>
+        <div class="project-gallery">
+            <div class="project">
+                <img src="project-image1.jpg" alt="Project 1 Image">
+                <h3>Project Title 1</h3>
+                <p>Description of the project.</p>
+                <a href="project-link1.html">Learn More</a>
+            </div>
         </div>
-        
     </section>
     <section id="contact">
         <h2>Contact</h2>
         <form>
-            <label for="name">Name: Michael Cheung</label>
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email: mcheung008@gmail.com</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send</button>
         </form>
     </section>
     <footer>
         <p>&copy; 2024 Michael Cheung</p>
+        <p>
+            <a href="https://linkedin.com/in/michael-cheung-73353396">LinkedIn</a> |
+            <a href="https://github.com/mcheung008">GitHub</a>
+        </p>
     </footer>
     <script src="script.js"></script>
 </body>
